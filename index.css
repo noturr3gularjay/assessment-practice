@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 50px;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 4px 8px #1e1e1e;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(31, 31, 113 );
+    transition: 0.3s ease;
+}
+
+.headerbutton{
+    margin: 20px 50px 20px 0;
+    padding :17px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(31, 31, 113);
+    color: #fff;
+}
+
+.headerbutton:hover{
+    background-color: rgb(0, 191, 225);
+    transition: 0.3s ease;
+    color: #000;
+    cursor: pointer;
+}
+
+/* herosection */
+.hero{
+    background-color: rgb(31 31 113);
+    height: 600px;
+}
+
+.hero h2{
+    padding :250px 0 0 50px;
+}
+
+.hero h1{
+    padding: 0 0 0 50px;
+    font-size: 50px;
+}
+
+.hero p{
+    padding: 20px 0 300px 50px;
+}
+.heroparent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroimg{
+    padding: 162px 50px 0 0;
+}
+
+.herotext p{
+    line-height: 25px;
+}
+
+.first{
+    text-align: center;
+    padding: 50px 50px;
+    line-height: 25px;
+}
+
+.firsttt h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.firsttt p{
+    line-height: 30px;
+}
+
+.seconddd{
+    display: flex;
+}
+
+.firstgrid{
+    background-color: rgb(31, 31, 113 );
+    color: #fff;
+    text-align: center;
+    margin :50px;
+    width: 550px;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.firstgrid i{
+    padding-bottom: 25px;
+}
+
+.firstgrid h1{
+    margin-bottom: 15px;
+}
+
+.firstgrid p{
+    line-height: 30px;
+}
+
+.firstgrid:hover{
+    background-color: rgb(62, 207, 255);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.thirdimg img{
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.third-parent{
+    display: flex;
+}
+
+.thirdtext{
+    text-align: center;
+}
+
+.thirdtext h1{
+    margin: 80px 0 20px 30px;
+    font-size: 50px;
+}
+
+.thirdtext p{
+    line-height: 30px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.fourthimg{
+    display: flex;
+}
+
+.fourthimg img{
+    width: 350px;
+    margin: 0 10px 50px 50px;
+}
+
+.fifth{
+    text-align: center;
+    background-color: rgb(31, 31, 113 );
+    color: #fff;
+    height: auto;
+}
+
+.fifth h3{
+    padding: 30px 0 0 0;
+}
+
+.fifth h1{
+    font-size: 40px;
+}
+
+.fifth div button{
+    margin: 30px 0;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+.fifth div button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.fifthtext h1{
+    font-size: 30px;
+    margin: 0 0 0 70px;
+}
+
+.fifthtext p{
+    margin: 10px 50px 50px 70px;
+    line-height: 23px;
+}
+
+.fifthtext{
+    margin-top: 140px;
+}
+
+.footerparent{
+    display: flex;
+    background-color: rgb(31, 31, 113 );
+    color: #fff;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.firstfooter{
+    padding: 20px 100px 30px 50px;
+}
+
+.firstfooter h3{
+    padding-bottom: 10px;
+}
+
+.firstfooter p{
+    line-height: 30px;
+}
+
+.firstfooter p:hover{
+    text-decoration: underline;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.firstfooter a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.firstfooter a:hover{
+    text-decoration: underline;
+}
+
+.firstfooter input{
+    color: #000;
+    padding: 5px 50px 5px 3px;
+    border: 1px solid lightskyblue;
+}
+
+.footerbutton button{
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.footerbutton button:hover{
+    background-color: #fff;
+    border: 1px solid lightskyblue;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: #000;
+}
